@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agame</title>
+    <!-- Вставьте ссылки на ваши CSS-стили и внешние библиотеки здесь -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
+</head>
+<body>
+    <!-- Здесь вы можете разместить содержимое вашего веб-приложения -->
+    <header>
+        <div class="header">
+            <div class="block_header">
+                <div class="balance_usdt">
+                    <div class="text_balance">USDT</div>
+                    <div id="TON_BALANCE" class="text_balance">30</div>
+                </div>
+            </div>
+            <div class="block_header">
+                <div class="container_logo">
+                    <img src="{{ url_for('static', filename='images/Logo.png') }}" alt="">
+                </div>
+            </div>
+            <div class="block_header">
+                <div class="balance_ton">
+                    <div class="text_balance">DOT</div>
+                    <div id="TON_BALANCE1" class="text_balance">30</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content_menu">
+        <div class="button-container">
+            <button class="custom-button" id="button_play">Play</button>
+            <button class="custom-button" id="button_wallet">Wallet</button>
+            <button class="custom-button" id="button_rules">Rules</button>
+        </div>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/stone2.png') }}" class="image_menu3" alt="">
+            <img src="{{ url_for('static', filename='images/list2.png') }}" class="image_menu2" alt="">
+            <img src="{{ url_for('static', filename='images/scissors1.png') }}"  class="image_menu1" alt="">
+        </div>
+    </div>
+
+    <div id="content_play_lobby" >
+        <div class="customComboBox_price_play">
+            <div class="selectedOption_price_play">
+                <div class="text_select_coin">
+                    <div class="text_select_left">Choose a coin: </div>
+                    <div class="text_select_right">
+                        <img src="{{ url_for('static', filename='images/down_arrow.png') }}" alt="" class="image_down_arrow">
+                        <div class="select_TON_coint_play">TON</div>
+                        <div class="select_USDT_coint_play">USDT</div>
+                    </div>
+                </div>
+            </div>
+            <ul class="optionsList_price_play">
+              <li id="price_ton_select">TON</li>
+              <li id="price_usdt_select">USDT</li>
+            </ul>
+        </div>
+
+        <div class="customComboBox_size_bet_ton_play">
+            <div class="selectedOption_size_bet_ton_play">
+                <div class="text_select_size_bet_ton">
+                    <div class="text_select_left">Size bet TON: </div>
+                    <div class="text_select_right">
+                        <img src="{{ url_for('static', filename='images/down_arrow.png') }}"  alt="" class="image_down_arrow_size_ton">
+                        <div class="select_TON_025_coint_play">0.25 TON</div>
+                        <div class="select_TON_05_coint_play">0.5 TON</div>
+                        <div class="select_TON_1_coint_play">1 TON</div>
+                        <div class="select_TON_2_coint_play">2 TON</div>
+                        <div class="select_TON_5_coint_play">5 TON</div>
+                    </div>
+                </div>
+            </div>
+            <ul class="optionsList_size_bet_play_ton">
+              <li id="price_size_ton_025_select">0.25 TON</li>
+              <li id="price_size_ton_05_select">0.5 TON</li>
+              <li id="price_size_ton_1_select">1 TON</li>
+              <li id="price_size_ton_2_select">2 TON</li>
+              <li id="price_size_ton_5_select">5 TON</li>
+            </ul>
+        </div>
+
+        <div class="customComboBox_size_bet_usdt_play">
+            <div class="selectedOption_size_bet_usdt_play">
+                <div class="text_select_size_bet_ton">
+                    <div class="text_select_left">Size bet USDT: </div>
+                    <div class="text_select_right">
+                        <img src="{{ url_for('static', filename='images/down_arrow.png') }}" alt="" class="image_down_arrow_size_usdt">
+                        <div class="select_USDT_05_coint_play">0.5 USDT</div>
+                        <div class="select_USDT_1_coint_play">1 USDT</div>
+                        <div class="select_USDT_2_coint_play">2 USDT</div>
+                        <div class="select_USDT_5_coint_play">5 USDT</div>
+                        <div class="select_USDT_10_coint_play">10 USDT</div>
+                    </div>
+                </div>
+            </div>
+            <ul class="optionsList_size_bet_play_usdt">
+              <li id="price_size_usdt_05_select">0.5 USDT</li>
+              <li id="price_size_usdt_1_select">1 USDT</li>
+              <li id="price_size_usdt_2_select">2 USDT</li>
+              <li id="price_size_usdt_5_select">5 USDT</li>
+              <li id="price_size_usdt_10_select">10 USDT</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+    <script src="{{ url_for('static', filename='js/button_fun.js') }}"></script>    
+    </footer>
+</body>
+</html>
