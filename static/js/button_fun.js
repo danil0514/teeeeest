@@ -1,9 +1,7 @@
-// Находим div кнопку по id
 var button_play = document.getElementById('button_play');
 var button_wallet = document.getElementById('button_wallet');
 var button_rules = document.getElementById('button_rules');
 
-// Добавляем прослушиватель событий на щелчок по кнопке
 button_play.addEventListener('click', function() {
     document.getElementById("content_menu").style.display = "none";
     document.getElementById("content_play_lobby").style.display = "block";
@@ -33,14 +31,14 @@ document.addEventListener('click', function(event) {
 
     if (event.target.closest('.selectedOption_price_play')) {
         if (optionsList.style.display === 'block') {
-            optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
+            optionsList.style.display = 'none'; 
         } else {
-            optionsList.style.display = 'block'; // Открываем список, если он закрыт
+            optionsList.style.display = 'block';
             sizeBet_ton.style.display = 'none';
             sizeBet_usdt.style.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
-        optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
+        optionsList.style.display = 'none'; 
     }
 
 
@@ -50,7 +48,7 @@ document.addEventListener('click', function(event) {
         tonCoin.style.display = 'block';
         usdtCoin.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
         sizeBet_ton.style.display = 'block';
         sizeBet_usdt.style.display = 'none';
     });
@@ -61,7 +59,7 @@ document.addEventListener('click', function(event) {
         tonCoin.style.display = 'none';
         usdtCoin.style.display = 'block';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
         sizeBet_ton.style.display = 'none';
         sizeBet_usdt.style.display = 'block';
     });
@@ -87,13 +85,13 @@ document.addEventListener('click', function(event) {
 
     if (event.target.closest('.selectedOption_size_bet_ton_play')) {
         if (optionsList.style.display === 'block') {
-            optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
+            optionsList.style.display = 'none'; 
         } else {
-            optionsList.style.display = 'block'; // Открываем список, если он закрыт
+            optionsList.style.display = 'block'; 
             
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
-        optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
+        optionsList.style.display = 'none'; 
     }
 
     ton025.addEventListener('click', function() {
@@ -105,7 +103,7 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'none';
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
 
     ton05.addEventListener('click', function() {
@@ -117,7 +115,7 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'none';
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
     ton1.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -128,7 +126,7 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'none';
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none';
     });
     ton2.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -139,7 +137,7 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'block';
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });  
     
     ton5.addEventListener('click', function() {
@@ -151,7 +149,7 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'none';
         size_ton_5.style.display = 'block';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
 });
 
@@ -174,13 +172,13 @@ document.addEventListener('click', function(event) {
 
     if (event.target.closest('.selectedOption_size_bet_usdt_play')) {
         if (optionsList.style.display === 'block') {
-            optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
+            optionsList.style.display = 'none'; 
         } else {
-            optionsList.style.display = 'block'; // Открываем список, если он закрыт
+            optionsList.style.display = 'block';
             
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
-        optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
+        optionsList.style.display = 'none'; 
     }
 
     usdt05.addEventListener('click', function() {
@@ -192,7 +190,7 @@ document.addEventListener('click', function(event) {
         size_usdt_5.style.display = 'none';
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
 
     usdt1.addEventListener('click', function() {
@@ -204,7 +202,7 @@ document.addEventListener('click', function(event) {
         size_usdt_5.style.display = 'none';
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
 
     usdt2.addEventListener('click', function() {
@@ -216,7 +214,7 @@ document.addEventListener('click', function(event) {
         size_usdt_5.style.display = 'none';
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
     usdt5.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -227,7 +225,7 @@ document.addEventListener('click', function(event) {
         size_usdt_5.style.display = 'block';
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
     
     usdt10.addEventListener('click', function() {
@@ -239,7 +237,7 @@ document.addEventListener('click', function(event) {
         size_usdt_5.style.display = 'none';
         size_usdt_10.style.display = 'block';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
+        optionsList.style.display = 'none'; 
     });
 });
 

@@ -3,15 +3,6 @@
     src: url("sd.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Moloko_eu";
-    src: url("fonts\moloko.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Tangak"; /* Название вашего шрифта */
-    src: url("fonts\tangak.otf") format("opentype"); /* Путь к файлу шрифта OpenType */
-}
 
 .container_logo{
     padding-top: 14%;
@@ -20,7 +11,7 @@
 }
 
 body{
-    background-image: url("list_main.jpg"); /* Путь к вашему изображению */
+    background-image: url("list_main.jpg"); 
     font-family: "Moloko", sans-serif;
 }
 
@@ -35,8 +26,8 @@ body{
 }
 
 .block_header{
-    width: 33%; /* Ширина каждого div'a будет 50% ширины родительского контейнера */
-    float: left; /* Позволяет div'ам располагаться в одну линию */
+    width: 33%; 
+    float: left; 
     font-family: "Moloko", sans-serif;
     font-size: 35px;
     display: flex;
@@ -59,16 +50,16 @@ body{
 
 .button-container {
     display: flex;
-    flex-direction: column; /* Отображает кнопки в столбик */
-    align-items: center; /* Центрирует кнопки по горизонтали */
+    flex-direction: column; 
+    align-items: center; 
     margin-top: 5vh;
 }
 
 .custom-button {
-    border: 4px solid black; /* Цвет и толщина обводки */
-    background-color: transparent; /* Прозрачный фон */
-    padding: 10px 20px; /* Отступы внутри кнопки */
-    margin-bottom: 3vh; /* Отступ между кнопками */
+    border: 4px solid black; 
+    background-color: transparent;
+    padding: 10px 20px; 
+    margin-bottom: 3vh; 
     font-family: "Moloko", sans-serif;
     font-size: 35px;
     width: 90%;
@@ -84,18 +75,18 @@ body{
 
 
 .image_menu1 {
-    margin-left: -5vh;
+    margin-left: -2%;
     position: absolute;
 }
 
 .image_menu2 {
-    margin-left: 6.5vh;
+    margin-left: 20%;
     position: absolute;
 }
 
 .image_menu3 {
     padding-top: 3vh;
-    margin-left: 20vh;
+    margin-left: 45%;
     width: 20vh;
     height: 20vh;
     position: absolute;
@@ -106,18 +97,17 @@ body {
     padding: 0;
 }
 
-/* Создаем псевдоэлементы для горизонтальных линий */
 body::before, body::after {
     content: '';
     position: fixed;
     left: 0;
     width: 100%;
-    height: 3px; /* Высота линии */
-    background-color: black; /* Цвет линии */
-    z-index: 9999; /* Поднимаем линии выше других элементов */
+    height: 3px; 
+    background-color: black; 
+    z-index: 9999; 
 }
 
-/* Устанавливаем верхнюю границу */
+
 body::before {
     top: 0;
 }
@@ -125,7 +115,6 @@ body::before {
     left: 0;
 }
 
-/* Устанавливаем правую границу */
 body::after {
     right: 0;
 }
