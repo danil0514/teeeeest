@@ -285,6 +285,7 @@ body::after {
     display: none;
 }
 .text_select_size_bet_ton{
+    width: 90%;
     display: flex;
 }
 
@@ -366,6 +367,7 @@ body::after {
 }
 .text_select_size_bet_usdt{
     display: flex;
+    width: 90%;
 }
 
 .customComboBox_size_bet_usdt_play{
