@@ -381,8 +381,7 @@ body::after {
     padding: 10px;
     border: none;
     cursor: pointer;
-    width: 80px; 
-    height: 80px; 
+    
     z-index: 999; 
     background-color: transparent;
 }
