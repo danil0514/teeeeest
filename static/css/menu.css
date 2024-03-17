@@ -195,15 +195,15 @@ body::after {
 }
 
 .text_select_right{
-    padding-top: 3%;
+    padding-top: 1%;
     flex: 1;
 } 
 
 .text_select_left{
     font-size: 150%;
     flex:1.8;
+    text-align: right;
 }
-
 .select_TON_coint_play{
     display: none;
     font-size: 150%;;
