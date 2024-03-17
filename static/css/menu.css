@@ -385,9 +385,9 @@ body::after {
   z-index: 999; /
   }
   
-  .bottom-back img {
-    width: 10px; /* Размер вашего изображения */
-    height: 10px; /* Размер вашего изображения */
+  .bottom-back-img {
+    width: 20px; 
+    height: 20px; 
     display: block;
   }
   
