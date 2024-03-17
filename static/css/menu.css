@@ -151,7 +151,7 @@ body::after {
   }
   
 .selectedOption_price_play {
-    padding-left: 23%;
+    padding-left: 7%;
     border: 2px solid #070000;
     cursor: pointer;
     padding-top: 4%;
@@ -195,6 +195,7 @@ body::after {
 }
 
 .text_select_right{
+
     padding-top: 1%;
     flex: 1;
 } 
@@ -204,6 +205,8 @@ body::after {
     flex:1.8;
     text-align: right;
 }
+
+
 .select_TON_coint_play{
     display: none;
     font-size: 150%;;
@@ -229,7 +232,7 @@ body::after {
   }
   
 .selectedOption_size_bet_ton_play {
-    padding-left: 23%;
+    padding-left: 7%;
     border: 2px solid #070000;
     cursor: pointer;
     padding-top: 2.5%;
@@ -309,7 +312,7 @@ body::after {
   }
   
 .selectedOption_size_bet_usdt_play {
-    padding-left: 23%;
+    padding-left: 7%;
     border: 2px solid #070000;
     cursor: pointer;
     padding-top: 2.5%;
