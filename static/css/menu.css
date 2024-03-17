@@ -376,21 +376,21 @@ body::after {
 
 
 .bottom-back {
-  position: fixed;
-  bottom: 0;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  width: 120px; 
-height: 120px; 
-  z-index: 999; 
-  background-color: transparent;
-  }
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 120px; 
+    height: 120px; 
+    z-index: 999; 
+    background-color: transparent;
+}
   
-  .bottom-back-img {
+.bottom-back-img {
     width: 120px; 
     height: 120px; 
     display: block;
 
-  }
-  
+}
+
