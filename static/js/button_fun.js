@@ -247,6 +247,7 @@ document.addEventListener('click', function(event) {
     if (event.target.id === 'button_back_klick_play') {
         document.getElementById("content_menu").style.display = "block";
         document.getElementById("content_play_lobby").style.display = "none";
+        console.log('Привет');
       }
   });
 
