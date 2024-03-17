@@ -376,19 +376,20 @@ body::after {
 
 
 .bottom-back {
-    position: fixed;
+  position: fixed;
   bottom: 0;
-  right: 0;
   padding: 10px;
   border: none;
   cursor: pointer;
-  z-index: 999; /
+  z-index: 999; 
+  background-color: rgba(255, 255, 255, 0.5); 
   }
   
   .bottom-back-img {
-    width: 20px; 
-    height: 20px; 
+    width: 120px; 
+    height: 120px; 
     display: block;
+
   }
   
   .circle {
