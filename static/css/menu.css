@@ -377,18 +377,18 @@ body::after {
 
 .bottom-back {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    background-color: #ffffff;
-    border: none;
-    cursor: pointer;
-    z-index: 999; 
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  z-index: 999; /
   }
   
   .bottom-back img {
-    width: 40px; /* Размер вашего изображения */
-    height: 40px; /* Размер вашего изображения */
+    width: 10px; /* Размер вашего изображения */
+    height: 10px; /* Размер вашего изображения */
     display: block;
   }
   
