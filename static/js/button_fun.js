@@ -92,7 +92,7 @@ document.addEventListener('click', function(event) {
             optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
         } else {
             optionsList.style.display = 'block'; // Открываем список, если он закрыт
-            
+            append_button_play.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
         optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
@@ -185,7 +185,7 @@ document.addEventListener('click', function(event) {
             optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
         } else {
             optionsList.style.display = 'block'; // Открываем список, если он закрыт
-            
+            append_button_play.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
         optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
