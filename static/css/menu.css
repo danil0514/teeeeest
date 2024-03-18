@@ -384,17 +384,22 @@ body::after {
 
 .buttonback-point {
     display: inline-block;
-    width: 60px;
+    width: 40px;
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Прозрачный фон */
+    background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
-    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    text-decoration: none; 
     border-radius: 5px;
     cursor: pointer;
 }
 
 .buttonback-point img {
-    vertical-align: middle; /* Выравниваем изображение по вертикали */
-    width: 60px;
-    margin-right: 5px; /* Добавляем небольшой отступ между изображением и текстом */
+    vertical-align: middle; 
+    width: 40px;
+    margin-right: 5px; 
+}
+
+.button-container-search-user{
+    display: none;
+    font-size: 130%;
 }

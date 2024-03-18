@@ -84,6 +84,8 @@ document.addEventListener('click', function(event) {
     var size_ton_2 = comboBox.querySelector('.select_TON_2_coint_play');
     var size_ton_5 = comboBox.querySelector('.select_TON_5_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_ton');
+    var append_button_play = comboBox.querySelector('button-search-game')
+
 
     if (event.target.closest('.selectedOption_size_bet_ton_play')) {
         if (optionsList.style.display === 'block') {
@@ -106,6 +108,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });
 
     ton05.addEventListener('click', function() {
@@ -118,6 +121,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });
     ton1.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -129,6 +133,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });
     ton2.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -140,6 +145,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });  
     
     ton5.addEventListener('click', function() {
@@ -152,6 +158,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'block';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });
 });
 
@@ -171,6 +178,7 @@ document.addEventListener('click', function(event) {
     var size_usdt_5 = comboBox.querySelector('.select_USDT_5_coint_play');
     var size_usdt_10 = comboBox.querySelector('.select_USDT_10_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_usdt');
+    var append_button_play = comboBox.querySelector('button-search-game')
 
     if (event.target.closest('.selectedOption_size_bet_usdt_play')) {
         if (optionsList.style.display === 'block') {
@@ -193,6 +201,7 @@ document.addEventListener('click', function(event) {
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
     });
 
     usdt1.addEventListener('click', function() {
@@ -205,6 +214,8 @@ document.addEventListener('click', function(event) {
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
+
     });
 
     usdt2.addEventListener('click', function() {
@@ -217,6 +228,8 @@ document.addEventListener('click', function(event) {
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
+
     });
     usdt5.addEventListener('click', function() {
         var selectedValue = this.textContent;
@@ -228,6 +241,8 @@ document.addEventListener('click', function(event) {
         size_usdt_10.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
+
     });
     
     usdt10.addEventListener('click', function() {
@@ -240,6 +255,8 @@ document.addEventListener('click', function(event) {
         size_usdt_10.style.display = 'block';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
+        append_button_play.style.display = 'block';
+
     });
 });
 
