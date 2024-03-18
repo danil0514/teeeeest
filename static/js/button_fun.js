@@ -84,7 +84,7 @@ document.addEventListener('click', function(event) {
     var size_ton_2 = comboBox.querySelector('.select_TON_2_coint_play');
     var size_ton_5 = comboBox.querySelector('.select_TON_5_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_ton');
-    var append_button_play = comboBox.querySelector('button-search-game')
+    var append_button_play = comboBox.querySelector('.button-container-search-user')
 
 
     if (event.target.closest('.selectedOption_size_bet_ton_play')) {
@@ -178,7 +178,7 @@ document.addEventListener('click', function(event) {
     var size_usdt_5 = comboBox.querySelector('.select_USDT_5_coint_play');
     var size_usdt_10 = comboBox.querySelector('.select_USDT_10_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_usdt');
-    var append_button_play = comboBox.querySelector('button-search-game')
+    var append_button_play = comboBox.querySelector('.button-container-search-user')
 
     if (event.target.closest('.selectedOption_size_bet_usdt_play')) {
         if (optionsList.style.display === 'block') {
