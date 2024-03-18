@@ -375,22 +375,24 @@ body::after {
 }
 
 
-.bottom-back {
+.buttonback-play-container {
     position: fixed;
     bottom: 0;
-    padding: 10px;
-    border: none;
+    left: 0;
+    margin: 20px;
+}
+
+.buttonback-point {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    border-radius: 5px;
     cursor: pointer;
-    width: 80px; 
-    height: 80px; 
-    z-index: 999; 
-    background-color: transparent;
-}
-  
-.bottom-back-img {
-    width: 40px; 
-    height: 40px; 
-    display: block;
-
 }
 
+.buttonback-point img {
+    vertical-align: middle; /* Выравниваем изображение по вертикали */
+    margin-right: 5px; /* Добавляем небольшой отступ между изображением и текстом */
+}
