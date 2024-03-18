@@ -84,7 +84,7 @@ document.addEventListener('click', function(event) {
     var size_ton_2 = comboBox.querySelector('.select_TON_2_coint_play');
     var size_ton_5 = comboBox.querySelector('.select_TON_5_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_ton');
-    var append_button_play = comboBox.querySelector('.button-container-search-user')
+    var append_button_play = comboBox.querySelector('.button-container-search-user');
 
 
     if (event.target.closest('.selectedOption_size_bet_ton_play')) {
@@ -107,8 +107,8 @@ document.addEventListener('click', function(event) {
         size_ton_2.style.display = 'none';
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
-        optionsList.style.display = 'none'; // Закрыть список после выбора
-        append_button_play.style.display = 'block';
+        optionsList.style.display = 'none'; 
+        append_button_play.style.display = 'block'; // Закрыть список после выбора
     });
 
     ton05.addEventListener('click', function() {
@@ -121,7 +121,7 @@ document.addEventListener('click', function(event) {
         size_ton_5.style.display = 'none';
         downArrowImage.style.display = 'none';
         optionsList.style.display = 'none'; // Закрыть список после выбора
-        append_button_play.style.display = 'block';
+        append_button_play.style.display = 'block'; // Закрыть список после выбора
     });
     ton1.addEventListener('click', function() {
         var selectedValue = this.textContent;
