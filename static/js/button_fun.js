@@ -84,7 +84,7 @@ document.addEventListener('click', function(event) {
     var size_ton_2 = comboBox.querySelector('.select_TON_2_coint_play');
     var size_ton_5 = comboBox.querySelector('.select_TON_5_coint_play');
     var downArrowImage = comboBox.querySelector('.image_down_arrow_size_ton');
-    var append_button_play = comboBox.querySelector('.button-container-search-user');
+    var append_button_play = document.querySelector('.button-container-search-user');
 
 
     if (event.target.closest('.selectedOption_size_bet_ton_play')) {
