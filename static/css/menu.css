@@ -401,5 +401,10 @@ body::after {
 
 .button-container-search-user{
     display: none;
-    font-size: 130%;
+    font-size: 170%;
+    padding-left: 7%;
+    border: 2px solid #070000;
+    cursor: pointer;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
 }
