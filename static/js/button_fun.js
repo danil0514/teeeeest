@@ -28,6 +28,7 @@ document.addEventListener('click', function(event) {
     var usdtCoin = comboBox.querySelector('.select_USDT_coint_play');
     var sizeBet_ton = document.querySelector('.customComboBox_size_bet_ton_play');
     var sizeBet_usdt = document.querySelector('.customComboBox_size_bet_usdt_play');
+    var append_button_play = document.querySelector('.button-container-search-user');
 
     var selectPriceCoin_server = '';
 
@@ -38,6 +39,7 @@ document.addEventListener('click', function(event) {
             optionsList.style.display = 'block'; // Открываем список, если он закрыт
             sizeBet_ton.style.display = 'none';
             sizeBet_usdt.style.display = 'none';
+            append_button_play.style.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
         optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
@@ -92,7 +94,7 @@ document.addEventListener('click', function(event) {
             optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
         } else {
             optionsList.style.display = 'block'; // Открываем список, если он закрыт
-            append_button_play.display = 'none';
+            append_button_play.style.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
         optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
@@ -185,7 +187,7 @@ document.addEventListener('click', function(event) {
             optionsList.style.display = 'none'; // Закрываем список, если он уже открыт
         } else {
             optionsList.style.display = 'block'; // Открываем список, если он закрыт
-            append_button_play.display = 'none';
+            append_button_play.style.display = 'none';
         }
     } else if (!event.target.closest('.optionsList_price_play')) {
         optionsList.style.display = 'none'; // Закрываем список, если клик был вне списка
